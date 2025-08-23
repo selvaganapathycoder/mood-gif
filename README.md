@@ -23,6 +23,4 @@ A responsive and minimal GIF search app built with **React** + **Vite**, powered
 
 ---
 
-## 🛠️ Tech Stack
 
-- [Re]()
