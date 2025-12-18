@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D4D" />
+      <stop offset="100%" stop-color="#FF9E00" />
+    </linearGradient>
+    <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E2DE2" />
+      <stop offset="100%" stop-color="#4A00E0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="42" cy="42" r="32" stroke="url(#circleGrad)" stroke-width="8" fill="none" />
+  <line x1="66" y1="66" x2="90" y2="90" stroke="url(#handleGrad)" stroke-width="10" stroke-linecap="round" />
+  
+  <!-- Play Button (representing GIF/Video) -->
+  <path d="M35 30 L58 42 L35 54 Z" fill="#333" />
+</svg>
