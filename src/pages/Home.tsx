@@ -1,6 +1,7 @@
 import React from 'react'
 import SearchBar from '@/components/SearchBar'
 import GifGrid from '@/components/GifGrid'
+import logo from '@/assets/logo.svg'
 
 const Home = () => {
   const [query, setQuery] = React.useState("Happy");
@@ -11,7 +12,7 @@ const Home = () => {
       {/* Header Section */}
       <header className="flex flex-col items-center space-y-4 animate-in fade-in slide-in-from-top-4 duration-700">
         <div className="flex justify-center items-center gap-3 p-2 rounded-2xl bg-secondary/30 backdrop-blur-sm border border-border/50 shadow-inner">
-            <img src="/logo.svg" alt="GIF Quest Logo" className="w-12 h-12 drop-shadow-md" />
+            <img src={logo} alt="GIF Quest Logo" className="w-12 h-12 drop-shadow-md" />
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-primary via-accent-foreground to-primary bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
             GIF Quest
             </h1>
